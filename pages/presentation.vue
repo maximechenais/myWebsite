@@ -7,17 +7,9 @@
 
         <div class="content" >
             <div class="menu">
-                <menu />         
+                <menu />
             </div>
-            <mainTitle 
-                fontSize="64px"
-                fontWeight="bold"
-                color="#FFF5F5"
-                shadow="0px 0px 7px #FFF5F5"
-                id="title"
-            >
-                {{ mainTitle }}
-            </mainTitle>
+           <div>La 2eme page</div>
         </div>
     </div>
 </template>
@@ -34,7 +26,7 @@ export default {
         topbar,
         planetStars,
         mainTitle,
-        menu,
+        menu
     },
 
     data() {
