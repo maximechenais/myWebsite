@@ -19,26 +19,38 @@
             {{ baseline }}
         </baseline>
 
+        <experienceCard 
+            :experiences="experiences"
+            :stacks="experiences.stack"
+        />
+
     </div>
 </template>
 
 <script>
 import pageTitle from '@/components/title/page-title'
 import baseline from '@/components/title/baseline'
+import experienceCard from '@/components/cards/experience-card'
+import experiences from '@/static/experiences.json'
 import {gsap} from 'gsap'
 
 export default {
     components: {
         pageTitle,
-        baseline
+        baseline,
+        experienceCard
     },
 
     data() {
         return {
             pageTitle: 'Réalisations',
-            baseline: 'Pour des raisons de confidentialité, certains projets ne seront pas  publiques. Me consulter ici pour en savoir plus.'
+            baseline: 'Pour des raisons de confidentialité, certains projets ne seront pas  publiques. Me consulter ici pour en savoir plus.',
+            
         }
     },
+    asyncData ({ params }) {
+        return { experiences }
+    }
 
 }
 

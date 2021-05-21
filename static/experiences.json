@@ -4,9 +4,11 @@
         "name": "Maxime Chenais",
         "github": true,
         "github_link": "https://github.com/maximechenais/myWebsite",
-        "description": "Si vous lisez ce texte, vous êtes sur mon site. Il ne vous reste plus qu’à le parcourir. Il a été fait avec passion, code, amour, gloire et beauté....",
+        "website": false,
+        "website_link": "",
+        "description": "Si vous lisez ce texte, vous êtes sur mon site. Il ne vous reste plus qu’à le parcourir. Il a été fait avec passion, code, amour, gloire et beauté...",
         "background_image": "#291B25",
-        "logo_image": "../assets/logo.main/logo.svg",
+        "logo_image": "main_logo.svg",
         "stack": [
             {
                 "name": "Vue js",
@@ -15,6 +17,10 @@
             {
                 "name": "Nuxt js",
                 "color": "#2F485E"
+            },
+            {
+                "name": "Javascript",
+                "color": "#EFD81A"
             },
             {
                 "name": "Gsap",
@@ -31,9 +37,11 @@
         "name": "WE WIINK",
         "github": false,
         "github_link": "",
+        "website": true,
+        "website_link": "https://wewiink.com/automatisez-votre-bouche-a-oreille/",
         "description": "Plateforme Saas à destination des entreprises qui souhaitent fidéliser leurs clients et développer leurs communautés,  avec des programmes  clé en main, pour Instagram, TikTok, Facebook, Twitter et Pinterest. ",
         "background_image": "#FFF",
-        "logo_image": "../assets/logo.main/logo.svg",
+        "logo_image": "wiink.svg",
         "stack": [
             {
                 "name": "Vue js",
@@ -42,6 +50,10 @@
             {
                 "name": "Nuxt js",
                 "color": "#2F485E"
+            },
+            {
+                "name": "Javascript",
+                "color": "#EFD81A"
             },
             {
                 "name": "Django",
@@ -56,5 +68,110 @@
                 "color": "#3195E8"
             }
         ]
+    },
+    {
+        "id": 3,
+        "name": "WE LOVE RENO",
+        "github": false,
+        "github_link": "",
+        "website": true,
+        "website_link": "http://welovereno.fr/",
+        "description": "Pré-conception d’une application web pour un professionnel dans le bâtiment. Réalisation du cahier des charges et de la maquette.",
+        "background_image": "#0D0D0D",
+        "logo_image": "we_love_reno.svg",
+        "stack": [
+            {
+                "name": "Figma",
+                "color": "#A259FF"
+            },
+            {
+                "name": "Trello",
+                "color": "#0076BC"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Terre de CBD / Boutique en ligne",
+        "github": false,
+        "github_link": "",
+        "website": true,
+        "website_link": "https://terredecbd.com/",
+        "description": "Site e-commerce de vente de CBD avec gestion de thème existant. Création de la maquette et intégration. Création d’un système de panier, commande, gestion de la livraison et paiements en ligne, stocks fournisseurs.",
+        "background_image": "#FFF",
+        "logo_image": "terredecbd.svg",
+        "stack": [
+            {
+                "name": "Prestashop",
+                "color": "#311F94"
+            },
+            {
+                "name": "HTML5",
+                "color": "#E96228"
+            },
+            {
+                "name": "CSS3",
+                "color": "#244BDD"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Lits dispo / Bénévolat",
+        "github": true,
+        "github_link": "https://github.com/nicolasguimier/lits-dispo",
+        "website": false,
+        "website_link": "",
+        "description": "Application qui a pour but de lister les lits disponibles en service de réanimation. Avec une recherche par search bar et carte interactive. Réalisation de la partie front end.",
+        "background_image": "#291B25",
+        "logo_image": "main_logo.svg",
+        "stack": [
+            {
+                "name": "HTML5",
+                "color": "#E96228"
+            },
+            {
+                "name": "CSS3",
+                "color": "#244BDD"
+            },
+            {
+                "name": "Javascript",
+                "color": "#EFD81A"
+            },
+            {
+                "name": "rails",
+                "color": "#CC0200"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Formation Fullstack developer",
+        "github": false,
+        "github_link": "",
+        "website": true,
+        "website_link": "https://www.lewagon.com/fr",
+        "description": "Formation de 9 semaines au Wagon de Nantes",
+        "background_image": "#FFF",
+        "logo_image": "le_wagon.svg",
+        "stack": [
+            {
+                "name": "HTML5",
+                "color": "#E96228"
+            },
+            {
+                "name": "CSS3",
+                "color": "#244BDD"
+            },
+            {
+                "name": "Javascript",
+                "color": "#EFD81A"
+            },
+            {
+                "name": "rails",
+                "color": "#CC0200"
+            }
+        ]
     }
+    
 ]
