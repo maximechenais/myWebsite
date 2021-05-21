@@ -1,38 +1,43 @@
 <template>
-    <div class="main-container">
-        <div class="top">
-            <topbar />
-            <planetStars />
-        </div>
+    <div class="content">
 
-        <div class="content" >
-            <div class="menu">
-                <menu />
-            </div>
-           <div>La 2eme page</div>
-        </div>
+        <pageTitle
+            fontSize="48px"
+            fontWeight="bold"
+            color="#FFF5F5"
+            shadow="0px 0px 7px #FFF5F5"
+            class="page-title"
+        >
+            {{ pageTitle }}
+        </pageTitle>
+
+        <baseline
+            fontSize="18px"
+            color="#FFF5F5"
+            class="baseline"
+        >
+            {{ baseline }}
+        </baseline>
+
+        <video src="" controls class="video-presentation"></video>
     </div>
 </template>
 
 <script>
-import topbar from '@/components/topbar/topbar'
-import planetStars from '@/components/topbar/planet'
-import mainTitle from '@/components/title/main-title'
-import menu from '@/components/menu/menu'
+import pageTitle from '@/components/title/page-title'
+import baseline from '@/components/title/baseline'
 import {gsap} from 'gsap'
 
 export default {
     components: {
-        topbar,
-        planetStars,
-        mainTitle,
-        menu
+        pageTitle,
+        baseline
     },
 
     data() {
         return {
-            mainTitle: 'Développeur front end',
-            ref: 'rocket'
+            pageTitle: 'Présentation',
+            baseline: 'Parce que les images valent mille mots, une vidéo vaut mille images.'
         }
     },
 
@@ -42,19 +47,29 @@ export default {
 
 <style scoped>
 
-.top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .content {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
 }
 
-.menu div{
-    color: #FFF5F5;
+.page-title {
+    margin-top: -80px;
+}
+
+video.video-presentation {
+    width: 774px;
+    height: 400px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #FFF5F5;
+    margin-top: 50px;
+}
+
+.baseline {
+    margin-top: 20px;
 }
 
 </style>

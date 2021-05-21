@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name": "Maxime Chenais",
+        "github": true,
+        "github_link": "https://github.com/maximechenais/myWebsite",
+        "description": "Si vous lisez ce texte, vous êtes sur mon site. Il ne vous reste plus qu’à le parcourir. Il a été fait avec passion, code, amour, gloire et beauté....",
+        "background_image": "#291B25",
+        "logo_image": "../assets/logo.main/logo.svg",
+        "stack": [
+            {
+                "name": "Vue js",
+                "color": "#3FB883"
+            },
+            {
+                "name": "Nuxt js",
+                "color": "#2F485E"
+            },
+            {
+                "name": "Gsap",
+                "color": "#88CE03"
+            },
+            {
+                "name": "Cypress",
+                "color": "#24262E"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "WE WIINK",
+        "github": false,
+        "github_link": "",
+        "description": "Plateforme Saas à destination des entreprises qui souhaitent fidéliser leurs clients et développer leurs communautés,  avec des programmes  clé en main, pour Instagram, TikTok, Facebook, Twitter et Pinterest. ",
+        "background_image": "#FFF",
+        "logo_image": "../assets/logo.main/logo.svg",
+        "stack": [
+            {
+                "name": "Vue js",
+                "color": "#3FB883"
+            },
+            {
+                "name": "Nuxt js",
+                "color": "#2F485E"
+            },
+            {
+                "name": "Django",
+                "color": "#113E2E"
+            },
+            {
+                "name": "Cypress",
+                "color": "#24262E"
+            },
+            {
+                "name": "Docker",
+                "color": "#3195E8"
+            }
+        ]
+    }
+]
